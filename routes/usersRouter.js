@@ -7,4 +7,4 @@ usersRouter.get("/", usersController.usersListGet);
 usersRouter.get("/create", usersController.usersCreateGet);
 usersRouter.post("/create", usersController.usersCreatePost);
 
-module.exports = usersRoutes;
+module.exports = usersRouter;
